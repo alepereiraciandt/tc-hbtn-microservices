@@ -1,0 +1,22 @@
+O que é microsserviços ?
+A  arquitetura  de  microserviços  é  um  modelo  que  estrutura  toda  aplicação  em  uma coleção   de   serviços   que   tem   como   características   facilidade   de   manutenibilidade   e testabilidade,  baixo  acoplamento  entre  os  serviços,  implantação  independente,  comumente chamado  de “deploy”  e organização  em  torno  dos  recursos  de  negócios,  que  podem  ser construídos  por  times  pequenos  e  utilizar  diferentes  tecnologias  entre  eles  (RICHARDSON, 2015).Segundo  Familiar  (2015),  o  termo  “micro”  presente  em  microserviços  é  uma referência   ao   escopo   da   funcionalidade   que   aquele   serviço   provê.   Idealmente,   um microserviço  deve  ser  responsável  por  uma  parte  específica  de  todo  o  sistema,  tendo  seu próprio  banco  de  dados  e  fornecendo  um  recurso  da  aplicação  a  partir  de  uma  API (Application  Programum  Interface), que pode ser entendida como “pontes” para conectar os sistemas.  Dessa  forma,  facilita  a  troca  de  informações  por  mensagem  entre  os  serviços,  de forma que cada API define quais serão seus endpointsvisíveis da aplicação.Os  microserviços  têm  várias  propriedades  e  comportamentos  que  os  diferenciam  das demais arquiteturas, afetando diversos aspectos do desenvolvimento, desde a estrutura do time que  irá  construí-lo  até  a  organização  do  código  fonte  e  o  controle  da  integração  até  a implantação  do  sistema.  Algumas  dessas  propriedades  e  comportamentos  relatam  o  fato  dos microserviços   serem   autônomos   e   isolados,   isto   é,   são   unidades   independentes   de funcionalidade   que   têm   dependências   de   outros   serviços   fracamente   acopladas   e   são projetados,  desenvolvidos,  testados  e  liberados  independentemente.  Outras  propriedades  que caracterizam os microserviços são a elasticidade, resiliência e responsividade, porque eles são reutilizados  em  muitas  soluções  diferentes  e,  portanto,  devem  ser  capazes  de  dimensionar adequadamente  dependendo  do  cenário  que  serão  utilizados.  Além  disso,  eles  devem  ser tolerantes a falhas e fornecer um prazo razoável para recuperação se algo der errado. Por fim, eles  precisam  ser  responsivos,  fornecendo  desempenho  razoável  independente  do  cenário  de execução (FAMILIAR, 2015).
+
+Visão geral da arquitetura Monolítica e de Microsserviços
+No cenário de desenvolvimento de software estão ocorrendo várias mudanças significativas e
+com isso o surgimento de novas tecnologias como, por exemplo, novos processos de
+desenvolvimento, novas linguagens de programação, novos paradigmas de programação e
+portanto, novos mercados. Sabendo disso, as empresas estão tentando acompanhar essas
+mudanças migrando os seus serviços para o uso dessas tecnologias. Neste sentido, novas
+propostas estão sendo feitas na área de arquiteturas de aplicações web. Definir a arquitetura
+de uma aplicação não é uma tarefa simples e existem vários padrões que podem ser seguidos,
+sendo difícil escolher o que melhor se adequa ao propósito da aplicação.
+Atualmente, a arquitetura monolítica é a mais tradicional e mais utilizada no mercado,
+devido à sua popularidade [Machado 2017]. Segundo Martins (2007, p. 18), “na arquitetura
+monolítica o software é construído num único módulo [...]” como, por exemplo, uma
+aplicação Java que se comunica com o banco através de um driver JDBC (Java Database 1
+1 Conjunto de classes e interfaces (API) escritas em Java que fazem o envio de instruções SQL para
+qualquer banco de dados relacional;
+Trabalho de Conclusão de Curso do discente Odravison Amaral Júnior, sob a orientação do(s) docente(es) Marcus
+Williams Aquino de Carvalho submetido ao Curso de Bacharelado em Sistemas de Informação da Universidade
+Federal da Paraíba, Campus IV, como parte dos requisitos necessários para obtenção do grau de Bacharel em Sistemas
+de Informação
